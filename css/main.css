@@ -1,0 +1,90 @@
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+  margin: 0px;
+  padding: 5px;
+  max-height: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+}
+
+.header {
+  font-size: 50px;
+  color: teal;
+}
+.header:hover {
+  color: tomato;
+}
+
+.sidebar {
+  min-width: 30%;
+  background-color: #fff;
+}
+
+.main_content {
+  padding-left: 21px;
+  background-color: #fff;
+}
+
+.section_title {
+  text-transform: uppercase;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+}
+
+.workplace_date {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  /* identical to box height, or 11px */
+  color: #414042;
+  opacity: 0.7;
+}
+
+.workplace_responsibilities {
+  list-style: outside;
+}/*# sourceMappingURL=main.css.map */

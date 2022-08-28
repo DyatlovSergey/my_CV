@@ -1,0 +1,58 @@
+.container {
+    // width: 1080px;
+    display: flex;
+    background-image: url(/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+
+    
+}
+
+.header {
+    font-size: 50px;
+    color: teal;
+
+    &:hover {
+        color: tomato;
+    }
+}
+
+.sidebar {
+min-width: 30%;
+background-color: #fff;
+}
+
+.main_content {
+//    max-width: 70%;
+   padding-left: 21px;
+   background-color: #fff;
+}
+
+
+.section_title {
+    text-transform: uppercase;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+}
+
+
+.workplace_date {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        /* identical to box height, or 11px */
+    
+    
+        color: #414042;
+    
+        opacity: 0.7;
+}
+
+
+
+.workplace_responsibilities {
+    list-style: outside;
+}
