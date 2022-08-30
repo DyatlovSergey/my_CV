@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  padding: 25px;
+  background: #649173;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #dbd5a4, #649173);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #dbd5a4, #649173);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-left: auto;
+  margin-right: auto;
+  // padding-left: 15px;
+  // padding-right: 15px;
+  max-width: 920px;
+
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.main_content {
+  padding: 25px;
+  background-color: #fff;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+.section_title {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+
+  margin-bottom: 10px;
+}
+
+.section__link {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.section__link:hover {
+  text-decoration: underline;
+  color: tomato;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.place_title,
+.workplace__position {
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  margin-bottom: 5px;
+}
+
+.place_date,
+.workplace__date {
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: rgba(65, 64, 66, 0.7);
+  margin-bottom: 5px;
+}
+
+.workplace__responsibilities {
+  list-style: inside;
+}
+
+// .workplace__date {
+//   font-family: "Roboto";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 18px;
+//   line-height: 140%;
+//   /* identical to box height, or 11px */
+
+//   color: #414042;
+
+//   opacity: 0.7;
+// }
+
+// .workplace__responsibilities {
+//   list-style-type: circle;
+// }
+
+// .section::before {
+//   display: inline-block;
+//   // width: 32px;
+//   // height: 4px;
+//   // border-radius: 50%;
+//   // margin-bottom: 18px;
+
+//   content: "";
+//   background-image: url(../../images/dots.png);
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-color: transparent;
+//   background-size: contain;
+//   border-radius: 0%;
+// }
+
+.icon {
+  // width: 100px;
+  // height: 50px;
+  display: inline-flex;
+  // background-color: violet;
+  align-items: center;
+  justify-content: baseline;
+  // color: #fff;
+  // padding: 10px 20px;
+}
+
+.icon::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../../images/skills.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+// .section_title {
+//   content: "";
+//   // width: 50px;
+//   // height: 20px;
+//   background-image: url(../../images/skills.svg);
+// }
