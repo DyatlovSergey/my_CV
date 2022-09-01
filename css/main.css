@@ -178,16 +178,13 @@ img {
   margin-bottom: 15px;
 }
 
-.section_title {
+.section__title {
   font-family: "Abel";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 30px;
   text-transform: uppercase;
-  border-bottom: 1px solid #999;
-  border-top: 1px solid #999;
-  margin-bottom: 10px;
 }
 
 .section__link {
@@ -200,6 +197,36 @@ img {
   color: tomato;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.workplace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.workplace::before {
+  content: "";
+  width: 15px;
+  height: 375px;
+  background-image: url(../images/we.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 5px;
 }
 
 .place_title,
@@ -223,23 +250,126 @@ img {
   list-style: inside;
 }
 
-.icon {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.section__icon-summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: baseline;
       -ms-flex-pack: baseline;
           justify-content: baseline;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+  margin-bottom: 10px;
 }
 
-.icon::before {
+.section__icon-summary::before {
   content: "";
-  width: 20px;
-  height: 20px;
-  background-image: url(../images/skills.svg);
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/icon.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+.section__icon-projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+.section__icon-projects::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/portfel.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+}
+
+.section__icon-workexpierence {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+.section__icon-workexpierence::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/portfel.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+}
+
+.section__icon-addictionaleducation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+.section__icon-addictionaleducation::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/add_ed.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
+}
+
+.add_ed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.add_ed::before {
+  content: "";
+  width: 10px;
+  background-image: url(../images/add.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 5px;
 }/*# sourceMappingURL=main.css.map */
