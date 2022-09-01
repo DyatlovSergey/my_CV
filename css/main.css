@@ -104,7 +104,12 @@ img {
 }
 
 .sidebar_section__link {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .sidebar_section__link:hover {
@@ -160,6 +165,7 @@ img {
   background-image: url(../images/skills.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
   margin-right: 5px;
 }
 
@@ -185,7 +191,35 @@ img {
   background-image: url(../images/diplom.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
   margin-right: 5px;
+}
+
+.sidebar_section__link::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-image: url(../images/phone.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 5px;
+}
+
+.place::before {
+  background-image: url(../images/home.svg);
+}
+
+.tel::before {
+  background-image: url(../images/phone.svg);
+}
+
+.tg::before {
+  background-image: url(../images/tg.svg);
+}
+
+.linkedin::before {
+  background-image: url(../images/linkedin.svg);
 }
 
 .container {
@@ -286,6 +320,7 @@ img {
   background-image: url(../images/icon.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
   margin-right: 5px;
 }
 
@@ -312,6 +347,7 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-position: center center;
   margin-right: 5px;
 }
 
@@ -337,7 +373,7 @@ img {
   background-image: url(../images/portfel.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   margin-right: 5px;
 }
 
@@ -363,27 +399,6 @@ img {
   background-image: url(../images/add_ed.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 5px;
-}
-
-.add_ed {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 10px;
-}
-
-.add_ed::before {
-  content: "";
-  width: 10px;
-  background-image: url(../images/add.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   margin-right: 5px;
 }/*# sourceMappingURL=main.css.map */

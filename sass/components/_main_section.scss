@@ -83,7 +83,7 @@
   background-image: url(../images/icon.svg);
   background-size: contain;
   background-repeat: no-repeat;
-
+  background-position: center center;
   margin-right: 5px;
 }
 
@@ -104,7 +104,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
+  background-position: center center;
   margin-right: 5px;
 }
 
@@ -125,7 +125,7 @@
   background-image: url(../images/portfel.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   margin-right: 5px;
 }
 
@@ -146,22 +146,6 @@
   background-image: url(../images/add_ed.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 5px;
-}
-
-.add_ed {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 10px;
-}
-
-.add_ed::before {
-  content: "";
-  width: 10px;
-  background-image: url(../images/add.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   margin-right: 5px;
 }

@@ -48,7 +48,8 @@
 }
 
 .sidebar_section__link {
-  display: inline-block;
+  display: flex;
+  align-items: baseline;
 }
 
 .sidebar_section__link:hover {
@@ -97,7 +98,7 @@
   background-image: url(../images/skills.svg);
   background-size: contain;
   background-repeat: no-repeat;
-
+  background-position: center center;
   margin-right: 5px;
 }
 
@@ -118,6 +119,35 @@
   background-image: url(../images/diplom.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
 
   margin-right: 5px;
+}
+
+.sidebar_section__link::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-image: url(../images/phone.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  margin-right: 5px;
+}
+
+.place::before {
+  background-image: url(../images/home.svg);
+}
+
+.tel::before {
+  background-image: url(../images/phone.svg);
+}
+
+.tg::before {
+  background-image: url(../images/tg.svg);
+}
+
+.linkedin::before {
+  background-image: url(../images/linkedin.svg);
 }
