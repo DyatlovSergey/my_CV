@@ -111,7 +111,6 @@ img {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-
 .sidebar_section__link:hover {
   text-decoration: underline;
   color: tomato;
@@ -157,7 +156,6 @@ img {
   border-top: 1px solid #999;
   margin-bottom: 10px;
 }
-
 .section__icon-skills::before {
   content: "";
   width: 25px;
@@ -183,7 +181,6 @@ img {
   border-top: 1px solid #999;
   margin-bottom: 10px;
 }
-
 .section__icon-education::before {
   content: "";
   width: 25px;
@@ -270,7 +267,6 @@ img {
   font-weight: bold;
   display: inline-block;
 }
-
 .section__link:hover {
   text-decoration: underline;
   color: tomato;
@@ -312,7 +308,6 @@ img {
   border-top: 1px solid #999;
   margin-bottom: 10px;
 }
-
 .section__icon-summary::before {
   content: "";
   width: 25px;
@@ -338,7 +333,6 @@ img {
   border-top: 1px solid #999;
   margin-bottom: 10px;
 }
-
 .section__icon-projects::before {
   content: "";
   width: 25px;
@@ -365,7 +359,6 @@ img {
   border-top: 1px solid #999;
   margin-bottom: 10px;
 }
-
 .section__icon-workexpierence::before {
   content: "";
   width: 25px;
@@ -391,7 +384,6 @@ img {
   border-top: 1px solid #999;
   margin-bottom: 10px;
 }
-
 .section__icon-addictionaleducation::before {
   content: "";
   width: 25px;
